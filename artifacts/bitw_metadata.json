@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "bitwise",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/operator.sol": "bitw"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/operator.sol": {
+			"keccak256": "0xd6b529856220eb60c18b8e4abcf2f63b49ac59ce2c50f316b7bc3993a20e5599",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://100462726975393cd601ae17e799a7c6446355c6cb2c698c269dcb9bae38b166",
+				"dweb:/ipfs/QmdzhZvw1Cnfi9kVsSmxmN6ve1k8f6RNeuvBf3YEo5xqtT"
+			]
+		}
+	},
+	"version": 1
+}
